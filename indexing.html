@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somya Singh - Resume</title>
+    
+    <style>
+        /* Custom Colors */
+        body {
+            background-color: #f5f5dc; /* Light beige background */
+            color: #5d4037; /* Peace brown for text */
+        }
+
+        header {
+            background-color: #8d6e63; /* Light brown for header */
+            color: white;
+            padding: 30px;
+            text-align: center;
+            position: relative;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .resume-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: #a1887f;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+
+        .resume-btn:hover {
+            background-color: #8d6e63;
+        }
+
+        .section-container {
+            background-color: #fff8e1; /* Very light beige for section containers */
+            margin: 20px 0;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #6d4c41; /* Dark brown for section titles */
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #8d6e63;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        /* Buttons */
+        .btn {
+            background-color: #a1887f; /* Medium brown */
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 1.1em;
+        }
+
+        .btn:hover {
+            background-color: #8d6e63;
+        }
+
+        .btn-download {
+            background-color: #795548; /* Darker brown for download button */
+        }
+
+        .btn-download:hover {
+            background-color: #6d4c41;
+        }
+
+        footer {
+            background-color: #8d6e63;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: white;
+            padding: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="somya.jpg" alt="Somya Singh" style="width: 100px; height: 100px; border-radius: 50%; margin-right: 20px;">
+        <h1>Somya Singh</h1>
+        <a href="#resume" class="resume-btn">Resume</a>
+        <p>Email: <a href="mailto:somyasinghgh@gmail.com" style="color: white;">somyasinghgh@gmail.com</a> | Phone: 8729862834</p>
+        <p>Location: Shivamogga-577204</p>
+    </header>
+
+    <div class="container" id="resume">
+        <div class="section-container">
+            <section>
+                <h2>Objective</h2>
+                <p>Aspiring computer science engineer with a passion for coding and a foundation in Python, Java, and web development. Eager to apply academic knowledge and contribute to real-world projects. Seeking internships and opportunities to enhance skills and gain industry exposure.</p>
+            </section>
+        </div>
+
+        <div class="section-container">
+            <section>
+                <h2>Education</h2>
+                <h3>Bachelor of Engineering in Computer Science</h3>
+                <p>PES Institute of Technology, Shivamogga</p>
+                <p>Expected Graduation: [2027]</p>
+                <p><strong>Relevant Coursework:</strong> Data Structures, Algorithms, Object-Oriented Programming</p>
+
+                <h3>Class 12th (Intermediate)</h3>
+                <p>Sri Chaitanya Techno School, Vishakapatnam</p>
+                <p>Completed: 2023</p>
+                <p><strong>Percentage:</strong> 85%</p>
+
+                <h3>Class 10th (Secondary)</h3>
+                <p>Nagaland Board of School Education, Nagaland</p>
+                <p>Completed: 2021</p>
+                <p><strong>Percentage:</strong> 88%</p>
+            </section>
+        </div>
+
+        <div class="section-container">
+            <section>
+                <h2>Skills</h2>
+                <ul>
+                    <li>C</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>HTML, CSS</li>
+                    <li>Communication</li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="section-container">
+            <section>
+                <h2>Projects</h2>
+                <h3>Python</h3>
+                <ul>
+                    <li>Number Guessing Game</li>
+                    <li>Rock Paper Scissors</li>
+                    <li>Flappy Bird</li>
+                    <li>Password Display using Read and Write</li>
+                </ul>
+
+                <h3>HTML, CSS</h3>
+                <ul>
+                    <li>Login Webpage</li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="section-container">
+            <section>
+                <h2>Hobbies</h2>
+                <ul>
+                    <li>Traveling</li>
+                    <li>Reading</li>
+                    <li>Making Friends</li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="section-container">
+            <section>
+                <h2>Languages</h2>
+                <ul>
+                    <li>English</li>
+                    <li>Hindi</li>
+                </ul>
+            </section>
+        </div>
+
+        <!-- Final Download Resume Button -->
+        <div class="text-center" style="margin-top: 30px;">
+            <button class="btn btn-download" onclick="downloadResume()">Download Resume</button>
+        </div>
+
+        <!-- Social Buttons -->
+        <div class="text-center" style="margin-top: 20px;">
+            <a href="https://www.linkedin.com/in/somyasingh" class="btn" target="_blank">LinkedIn</a>
+            <a href="https://github.com/somyasingh" class="btn" target="_blank">GitHub</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Somya Singh. All Rights Reserved.</p>
+        <p>
+            <a href="#">Privacy Policy</a> | 
+            <a href="#">Terms of Service</a> | 
+            <a href="#">Contact</a>
+        </p>
+    </footer>
+
+    <script>
+        function downloadResume() {
+            const link = document.createElement('a');
+            link.href = 'resume.pdf'; // Replace with the correct file path
+            link.setAttribute('download', 'Somya_Singh_Resume20.pdf');
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link); // Remove the element after downloading
+        }
+    </script>
+</body>
+</html>
